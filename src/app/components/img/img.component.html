@@ -1,0 +1,7 @@
+<div>
+  <img [style]="imgStyles" [src]="imgUrl" alt="" *ngIf="imgUrl; else elseImg" (error)="imgNoLoaded()">
+  <ng-template #elseImg>
+    <img [style]="imgStyles" [src]="imgDefault" alt="" (error)="imgNoLoadedDefault()">
+  </ng-template>
+
+</div>

@@ -1,0 +1,14 @@
+.information-container{
+  padding: 0.5rem;
+}
+.abilities-container{
+  display: flex;
+  flex-direction: row;
+  align-items: around;
+}
+h3{
+  background-color: rgb(255, 179, 0);
+  margin: 0.2rem;
+  padding: 0.2rem;
+  border-radius: 5px;
+}

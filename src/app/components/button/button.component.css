@@ -1,0 +1,25 @@
+.button{
+  border-radius: 5px;
+  padding: 0.5rem;
+  background-color: #ffffff;
+  color: rgb(0, 0, 0);
+  border: solid 1px rgb(24, 24, 24);
+
+  &.active{
+    background-color: #2121ff;
+    color: white;
+    border: solid 1px white;
+  }
+  &.danger{
+    background-color: #ff0000;
+    color: white;
+    border: solid 1px white;
+  }
+  &.epi{
+    background-color: #cfff21;
+    color: rgb(255, 255, 255);
+    border: solid 1px white;
+  }
+}
+
+
